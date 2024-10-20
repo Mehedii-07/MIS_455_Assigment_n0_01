@@ -24,6 +24,10 @@
   
   nav ul li {
     display: inline;
+    margin: auto;
+    font-style: normal;
+    nav-left: auto;
+    margin-left: 2px;
   }
   
   nav ul li a {
@@ -77,7 +81,7 @@
   
   /* Basic heading styles */
   h1 {
-    color: #333;
+    color: #801f1f;
     margin-bottom: 20px;
   }
   
