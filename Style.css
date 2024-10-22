@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
   }
   
   /* Body styles */
@@ -58,6 +64,10 @@
     height: auto;
     display: block;
     margin: 10px 0;
+    image-resolution: 10px;
+    border-image-repeat: round;
+    position-anchor: 10px;
+    border-left-color: aqua;
   }
   
   
