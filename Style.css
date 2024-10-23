@@ -10,6 +10,39 @@
 
 
   }
+  .container{
+    cursor: pointer;
+    background-color: #670e0e;
+    color: rgb(70, 22, 22);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+
+  }
+  .container:hover{
+    background-color: hsl(122, 90%, 55%);
+    transform: scale(1.1);
+
+  }
+  .image_home{
+
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    image-orientation: flip;
+    
+  }
+  .image_2{font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    image-orientation: flip;
+    
+
+  }
+
+
   
   /* Body styles */
   body {
@@ -27,7 +60,7 @@
   /* Navbar styles */
   nav ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 7px;
     background-color: #333;
     display: flex;
     justify-content: space-around;
@@ -38,7 +71,7 @@
     margin: auto;
     font-style: normal;
     nav-left: auto;
-    margin-left: 5px;
+    margin-left: 10px;
     
 
     font-size: 18px;
@@ -50,12 +83,14 @@
     color: #f4f0f0;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    padding: 10px 20px;
+    padding: 20px 20px;
   }
   
   nav ul li a:hover {
     background-color: #575757;
     border-radius: 5px;
+    transition-duration: 1;
+    
   }
   
   /* Image styles */
